@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     private var score = 0
     private var questions = 0
     private var streak = 0
+    private val operators = arrayOf("+", "-", "*")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -116,7 +117,6 @@ class MainActivity : AppCompatActivity() {
     // returns a String where the returned value is a random operator from the array
     // this ensures randomness in what operator is selected
     private fun generateRandomOperator(): String{
-        val operators = arrayOf("+", "-", "*")
         return operators[Random().nextInt(operators.size)]
     }
 

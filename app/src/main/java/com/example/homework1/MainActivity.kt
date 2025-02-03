@@ -51,7 +51,6 @@ class MainActivity : AppCompatActivity() {
         // If answer was correct and incorrect button was clicked or
         // answer was incorrect and correct button was clicked
         else{
-            score--
             streak = 0
             message="Wrong. $num1 $operator $num2 is $correctAnswer"
             findViewById<TextView>(R.id.textView_Feedback).setTextColor(Color.RED)

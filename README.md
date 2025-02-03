@@ -4,4 +4,5 @@ CS 414-02
 <br><br><br><br><br>
 ## Description
 
-testing
+## References
+- https://kotlinlang.org/docs/arrays.html#when-to-use-arrays

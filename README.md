@@ -6,3 +6,4 @@ CS 414-02
 
 ## References
 - https://kotlinlang.org/docs/arrays.html#when-to-use-arrays
+- In Class Example 1 (Simple Number Game)

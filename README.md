@@ -17,7 +17,7 @@ Each question displayed to the user is randomly generated. Both numbers are two 
 The random generation of num1 and num2 is handled by a function called ***generateRandomNumber(lower, upper)*** that uses the nextInt() method and returns and integer between the values of *lower* and *upper*.
 
 #### Generating a random operator
-After num1 and num2 are generated, an operator must be generated. The operators are stored in an array ***operators***, where:
+After num1 and num2 are generated, an operator must be generated. The operators are stored in an array, ***operators***, where:
 - operators[0] = "+"
 - operators[1] = "-"
 - operators[2] = "*"

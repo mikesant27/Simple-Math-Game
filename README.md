@@ -3,7 +3,7 @@ Michael Santoro
 CS 414-02
 
 ## Description
-Simple Math Game is a fast-paced game that tests your math skiulls. The game presents a random problem along with a result, either correct or incorrect. You must quickly decide whether the given result is correct or incorrect.
+Simple Math Game is a fast-paced game that tests your math skiulls. The game presents a random problem along with a result, either correct or incorrect. The player must quickly decide whether the given result is correct or incorrect.
 
 ### Generating a random problem
 

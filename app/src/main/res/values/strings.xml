@@ -2,4 +2,8 @@
     <string name="app_name">Homework1</string>
     <string name="Title">Simple Math Game</string>
     <string name="Question">Is This equation correct?</string>
+    <string name="Equals">=</string>
+    <string name="Correct">Correct</string>
+    <string name="Incorrect">Incorrect</string>
+    <string name="Reset">Reset Game</string>
 </resources>

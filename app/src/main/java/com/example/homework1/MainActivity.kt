@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun checkCorrectness(view: View){
-        val message: String? // null string to be used for feedback
+        var message = ""
         val num1 = findViewById<TextView>(R.id.textView_Number1).text.toString().toInt()
         val num2 = findViewById<TextView>(R.id.textView_Number2).text.toString().toInt()
         val operator = findViewById<TextView>(R.id.textView_Operator).text.toString()
@@ -42,17 +42,17 @@ class MainActivity : AppCompatActivity() {
         // If answer was correct and correct button was clicked or
         // answer was incorrect and incorrect button was clicked
         if((view.id == R.id.button_Correct && result == correctAnswer) ||
-            view.id== R.id.button_Incorrect && result != correctAnswer){
+            view.id == R.id.button_Incorrect && result != correctAnswer){
             score++
             streak++
-            message="That's right! $num1 $operator $num2 should be $correctAnswer"
+            message = "That's right! $num1 $operator $num2 should be $correctAnswer"
             findViewById<TextView>(R.id.textView_Feedback).setTextColor(Color.GREEN)
         }
         // If answer was correct and incorrect button was clicked or
         // answer was incorrect and correct button was clicked
         else{
             streak = 0
-            message="Wrong. $num1 $operator $num2 is $correctAnswer"
+            message = "Wrong. $num1 $operator $num2 is $correctAnswer"
             findViewById<TextView>(R.id.textView_Feedback).setTextColor(Color.RED)
         }
 
